@@ -109,6 +109,13 @@ a{
     background-size: contain;     
 }
 
+.camera img {
+    transition: transform .5s ease;
+}
+.camera:hover img {
+    transform: rotate(5deg) skew(-15deg, 15deg) translate(-20px,20px);
+}
+
 /* top section end */
 .section-title{
     margin-bottom: 50px;
@@ -134,10 +141,10 @@ a{
     box-shadow: 0 0 40px 12px #00000021;
     overflow: hidden;
 }
-.camera-img img:hover{
+/* .camera-img img:hover{
     transform: scale(1.3);
     transition: transform 2s ease-in-out;
-}
+} */
 .camera-name {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -256,40 +263,7 @@ footer {
     color: blue;
 }
 
-/* For mobile device */
-
-@media screen and (max-width: 480px) {
-
-    .top-section {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px 0;
-    }
-    .top-section-texts, 
-    .camera {
-        width: 100%;
-        max-width: 100%;
-        padding: 20px 0;
-    }
-    .top-section-title {
-        font-size: 36px;
-        line-height: 50px;
-        font-weight: bold;
-    }
-
-    .camera-details {
-        grid-template-columns: 1fr;
-        padding: 0;
-    }
-
-    .social {
-        width: 170px;
-    }
-}
-
-
-/*for Tablet device */
-
+/* for Tablet device  */
 @media screen and (max-width: 768px) {
 
     .container {
@@ -326,3 +300,35 @@ footer {
         width: 200px;
     }
 }
+
+/* For mobile device */
+
+@media screen and (max-width: 480px) {
+
+    .top-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    .top-section-texts, 
+    .camera {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 0;
+    }
+    .top-section-title {
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: bold;
+    }
+
+    .camera-details {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .social {
+        width: 170px;
+    }
+}
+
