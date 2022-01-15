@@ -43,17 +43,7 @@ a{
     height: 80px;
     align-items: center;
 }
-.navbar label {
-    width: 100%;
-    display: none;
-    font-size: 30px;
-    /* color: var(--bg); */
-    text-align: right;
-}
-.navbar label .fa-times {
-    color: #000;
-    text-align: right;
-}
+
 .navlink{
     display: flex;
 }
@@ -127,10 +117,10 @@ a{
 
 .camera-details {
     display: grid;
+    padding: 0 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
-    padding: 0 30px;
 }
 .camera-item {
     padding: 15px;
@@ -147,10 +137,9 @@ a{
     transition: transform 2s ease-in-out;
 } */
 
-/* .camera-img{
-    width: 224px;
-    height: 104px;
-} */
+.camera-img{
+    width: 80%;
+}
 .camera-name {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
