@@ -122,15 +122,23 @@ a{
     box-shadow: 0 0 40px 12px #00000021;
 }
 .camera-name {
-    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
     font-weight: bold;
     line-height: 40px;
     margin: 16px 0;
+}
+.camera-value{
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .camera-info {
     width: 100%;
     font-size: 16px;
     color: #6C6C6C;
+    font-weight: 400;
     max-height: 120px;
     overflow: hidden;
     text-overflow: ellipsis;
