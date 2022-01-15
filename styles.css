@@ -139,6 +139,25 @@ a{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
+.camera-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 10px;
+    padding-right: 3px;
+}
+.fa-star.filled{
+    color: #FFC014
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+span{
+    margin-left: 8px;
+}
+
 .camera-info {
     width: 100%;
     font-size: 16px;
