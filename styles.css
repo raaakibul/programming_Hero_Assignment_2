@@ -98,3 +98,56 @@ a{
 }
 
 /* top section end */
+.section-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Popular section style */
+
+.camera-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    padding: 0 30px;
+}
+.camera-item {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0 0 40px 12px #00000021;
+}
+.camera-name {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 16px 0;
+}
+.camera-info {
+    width: 100%;
+    font-size: 16px;
+    color: #6C6C6C;
+    max-height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.last-section{
+    margin-top: 0px 15px;
+}
+.gear img{
+    width: 80%;
+    margin-left: 20%;
+}
+.btn-last{
+    display: inline-block;
+    color: #fefbfe;
+    background-color: #e32a6d;
+    padding: 10px 24px;
+    text-align: center;
+    transition: box-shadow .4s ease;
+}
