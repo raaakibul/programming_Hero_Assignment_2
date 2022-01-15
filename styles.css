@@ -135,9 +135,7 @@ a {
   box-shadow: 0 0 40px 12px #1a191921;
 }
 
-.camera-img {
-  width: 80%;
-}
+
 .camera-name {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -164,7 +162,7 @@ a {
   color: #ffc014;
 }
 .fa-star.empty {
-  color: #aeaeae;
+  color: black;
 }
 span {
   margin-left: 8px;
